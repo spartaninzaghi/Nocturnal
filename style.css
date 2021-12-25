@@ -1,0 +1,128 @@
+.alert {
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background-color:rgba(21, 65, 78, 0.596);
+    color: aqua;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 5px 10px 20px;
+    font-size: 16px;
+}
+
+body {
+    background-image: url('bluesphere.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+.btn {
+    width: 359px;
+    height: 49px;
+    background-color: #011d30;
+    border: 1px solid transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 5px
+}
+
+.caption {
+    font-size: 14px;
+    color: rgb(0, 255, 221);
+    text-shadow: 0px 0px 5px rgb(12, 255, 255);
+}
+
+.fdiv {
+    background-image: url('blueaurora.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    max-width: 360px;
+    height: auto;
+    margin: 30px auto;
+    padding: 10px 15px 25px 15px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-family: freemono;
+    color: #ffffff;
+}
+
+
+.shead {
+    font-family: freemono;
+    font-size: 80px;
+    margin: 0px;
+    color:#0f2222;
+    text-shadow: 0px 0px 15px rgb(12, 255, 255);
+}
+
+.welcome {
+    text-shadow: 0px 0px 20px black;
+}
+
+
+
+.fctrl:focus {
+    box-shadow: none;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+form p {
+    font-size: 14px;
+}
+
+form a:link {
+    font-weight: bold;
+}
+
+form a:hover {
+    color: #081938;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    width: 350px;
+    height: 35px;
+    margin-top: 5px;
+    background-color: rgba(68, 137, 158, 0.596);
+    border: 1px solid #b0c0f3; 
+    border-radius: 5px;
+    font-family: freeMono;
+    font-size: 15px;
+    color: #ffffff
+       
+}
+
+input:hover {
+    border: 2px solid aqua;
+    box-shadow: 1px 1px 1px 1px 1px aqua;
+}
+
+input:focus {
+    outline: aqua;
+}
+
+::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+.login-link {
+    color: #ffffff;
+}
+
+
+
+.logout {
+    color: red;
+}
+
